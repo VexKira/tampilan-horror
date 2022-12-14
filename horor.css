@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.grid{
+    width: 480px;
+    margin: 5px;
+    border:red solid;
+}
+
+p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 17px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+[class*="grid_"] {
+    float: left;
+    height: auto;
+    margin: 0px;
+}
